@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+.divspan{
+
+  text-align: center
+   
+}
+.sp{
+    display:inline;
+    width: 100px;
+    height: 100px;
+    border: solid blue;
+    
+}
+h1{
+   text-align: center
+   
+}
+.divspan2{
+    text-align: center; text-align: center
+  
+}
+.sp2{
+    width: 100px;
+    height: 100px;
+    border: solid blue;
+    display: inline-block;
+    
+
+}
+.d3{
+    margin: 2%;
+}.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.flex>div{
+    margin: 14%;
+    }
+
+</style>
+<body>
+    <h1>this is span </h1>
+  <div class=divspan>
+      
+        <div class="sp">1</div>
+        <div class="sp">2</div>
+        <div class="sp">3</div>
+        <div class="sp">4</div>
+  </div>
+  <hr><hr><hr>
+  <h1>4 direct child divs didplay inline block  </h1>
+  <div class=divspan2>
+      
+        <div class="sp2">1</div>
+        <div class="sp2">2</div>
+        <div class="sp2">3</div>
+        <div class="sp2">4</div>
+  </div>
+  <hr><hr><hr>
+  <h1>4 non direct child divs with display inline-block </h1>
+  <div class=divspan2>
+
+      <div>
+        <div class="sp2 d3">1</div>
+        <div class="sp2 d3">2</div>
+    </div>
+    <div>
+        <div class="sp2 d3">3</div>
+        <div class="sp2 d3">4</div>
+    </div>
+    </div>
+    <hr><hr><hr>
+    <h1>4  direct child divs with display flex </h1>
+    <div class="flex">
+            <div class="sp">1</div>
+            <div class="sp">2</div>
+            <div class="sp">3</div>
+            <div class="sp">4</div>
+    </div>
+
+
+
+
+
+
+    
+</body>
+</html>
